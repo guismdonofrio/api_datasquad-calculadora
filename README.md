@@ -27,3 +27,5 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 - [Link]()
 - [Link]()
 - [Link]()
+- [Link]()
+- [Link]()
