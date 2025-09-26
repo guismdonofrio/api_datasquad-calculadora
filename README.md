@@ -8,12 +8,12 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 ##  Equipe
 | Nome | Papel | GitHub | LinkedIn |
 |------|-------|--------|----------|
-| Guilhermina Moreira D'Onofrio | SM | [Link](https://github.com/guismdonofrio) | Link |
-| Rubens Ferreira Venancio | PO | [Link](https://github.com/rubensvnc/) | Link |
-| Breno Souza de Andrade | DEV | [Link](https://github.com/brenobsa) | Link |
-| Mariana Roberta Gomes de Sousa | DEV | [Link](https://github.com/MarinanaSousa) | Link |
-| Matheus Henrique Ambrósio do Nascimento | DEV | [Link](https://github.com/Froguie) | Link |
-| Wanderson Ricardo dos Santos | DEV | [Link](https://github.com/Wander717) | Link |
+| Guilhermina Moreira D'Onofrio | SM | [GitHub](https://github.com/guismdonofrio) | LinkedIn |
+| Rubens Ferreira Venancio | PO | [GitHub](https://github.com/rubensvnc/) | LinkedIn |
+| Breno Souza de Andrade | DEV | [GitHub](https://github.com/brenobsa) | LinkedIn |
+| Mariana Roberta Gomes de Sousa | DEV | [GitHub](https://github.com/MarinanaSousa) | LinkedIn |
+| Matheus Henrique Ambrósio do Nascimento | DEV | [GitHub](https://github.com/Froguie) | LinkedIn |
+| Wanderson Ricardo dos Santos | DEV | [GitHub](https://github.com/Wander717) | LinkedIn |
 
 
 ## Tecnologias Utilizadas
@@ -30,3 +30,14 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 - [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 - [Apresentação](docs/apresentacoes/sprint1_review.md)
+
+
+##  Cronograma do Projeto
+```mermaid
+gantt
+    title Cronograma das Sprints
+    dateFormat  YYYY-MM-DD
+    section Sprint 1
+    US-001 Fibonacci       :2025-09-08, 21d
+    US-002 Quadrados       :2025-09-08, 21d  
+    US-003 Sequência Alternada :2025-09-08, 21d
