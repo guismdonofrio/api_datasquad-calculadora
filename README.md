@@ -22,7 +22,7 @@ pipipipopopo
 - Gestão: Jira Software
 
 
-##  Link para a pasta docs/
+##  Link para as documentações 
 - [Link]()
 - [Link]()
 - [Link]()
