@@ -13,7 +13,7 @@ pipipipopopo
 | Breno Souza de Andrade | DEV | [Link](https://github.com/brenobsa) | Link |
 | Mariana Roberta Gomes de Sousa | DEV | Link | Link |
 | Matheus Henrique Ambrósio do Nascimento | DEV | Link | Link |
-| Wanderson Ricardo dos Santos | DEV | [Link]() | Link |
+| Wanderson Ricardo dos Santos | DEV | Link | Link |
 
 
 ## Tecnologias Utilizadas
