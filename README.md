@@ -20,7 +20,6 @@ pipipipopopo
 - Linguagem: Portugol
 - Versionamento: GitHub
 - Gestão: Jira Software
-- Documentação: Markdown
 
 
 ##  Link para a pasta docs/
