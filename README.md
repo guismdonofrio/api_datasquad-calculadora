@@ -20,7 +20,7 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 - Linguagem: Portugol
 - Versionamento: GitHub
 - Gestão: Jira Software
-- Documentção: Markdown
+- Documentação: Markdown
 
 
 ##  Link para as documentações 
