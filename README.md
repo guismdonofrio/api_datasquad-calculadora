@@ -11,7 +11,7 @@ pipipipopopo
 | Guilhermina Moreira D'Onofrio | SM | [Link](https://github.com/guismdonofrio) | Link |
 | Rubens Ferreira Venancio | PO | [Link](https://github.com/rubensvnc/) | Link |
 | Breno Souza de Andrade | DEV | [Link](https://github.com/brenobsa) | Link |
-| Mariana Roberta Gomes de Sousa | DEV | Link | Link |
+| Mariana Roberta Gomes de Sousa | DEV | [Link](https://github.com/MarinanaSousa) | Link |
 | Matheus Henrique Ambrósio do Nascimento | DEV | Link | Link |
 | Wanderson Ricardo dos Santos | DEV | Link | Link |
 
