@@ -2,7 +2,7 @@
 Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal
 
 ##  Descrição do Projeto
-Implementar as sequências lógicas para validar a calculadora de acordo com os requisitos propostos pelo cliente.
+Implementar as sequências lógicas para validar a calculadora de acordo com os requisitos estabelecidos pelo cliente.
 
 
 ##  Equipe
