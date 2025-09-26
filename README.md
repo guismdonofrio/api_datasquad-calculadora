@@ -8,7 +8,7 @@ pipipipopopo
 ##  Equipe
 | Nome | Papel | GitHub | LinkedIn |
 |------|-------|--------|----------|
-| Guilhermina Moreira D'Onofrio | SM | [Link]() | Link |
+| Guilhermina Moreira D'Onofrio | SM | [Link](https://github.com/guismdonofrio) | Link |
 | Rubens Ferreira Venancio | PO | [Link](https://github.com/rubensvnc/) | Link |
 | Breno Souza de Andrade | DEV | [Link](https://github.com/brenobsa) | Link |
 | Mariana Roberta Gomes de Sousa | DEV | Link | Link |
