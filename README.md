@@ -24,8 +24,9 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 
 
 ##  Link para as documentações 
-- [Link](docs/backlog/product_backlog.md)
-- [Link]()
-- [Link]()
-- [Link]()
-- [Link]()
+- [Product Backlog](docs/backlog/product_backlog.md)
+- [Sprint Backlog](docs/backlog/sprint_backlog_sprint1.md)
+- [DoR](docs/backlog/dor_checklist_sprint1.md)
+- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
+- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
+- [Apresentação](docs/apresentacoes/sprint1_review.md)
