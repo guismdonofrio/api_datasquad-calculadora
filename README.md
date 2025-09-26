@@ -18,7 +18,7 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 
 ## Tecnologias Utilizadas
 - Linguagem: Portugol
-- Versionamento: GitHub
+- Versionamento: GitHub (GitHub Flow)
 - Gestão: Jira Software
 - Documentação: Markdown
 
