@@ -9,8 +9,8 @@ pipipipopopo
 | Nome | Papel | GitHub | LinkedIn |
 |------|-------|--------|----------|
 | Guilhermina Moreira D'Onofrio | SM | [Link]() | [Link]() |
-| Rubens Ferreira Venancio | PO | [Link]() | [Link]() |
-| Breno Souza de Andrade | DEV | [Link]() | [Link]() |
+| Rubens Ferreira Venancio | PO | [Link](https://github.com/rubensvnc/) | [Link]() |
+| Breno Souza de Andrade | DEV | [Link](https://github.com/brenobsa) | [Link]() |
 | Mariana Roberta Gomes de Sousa | DEV | [Link]() | [Link]() |
 | Matheus Henrique Ambrósio do Nascimento | DEV | [Link]() | [Link]() |
 | Wanderson Ricardo dos Santos | DEV | [Link]() | [Link]() |
