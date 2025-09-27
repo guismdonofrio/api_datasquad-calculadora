@@ -13,7 +13,7 @@
 | 9 | Alta | US-009 – Tribonacci até N termos | - pontos | 3 |
 
 
-##  Detalhamento das User Stories
+##  Detalhamento das User Stories dessa Sprint 1
 
 ### **US-001 – Fibonacci pares até 100ª posição**
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição.
@@ -23,15 +23,15 @@ Como usuário da calculadora de sequências lógicas, quero a implementação l�
 - Critérios de aceitação definidos  
 - Estimativa feita (5 pontos)  
 - Sem bloqueios conhecidos  
-- Responsável definido  
+- Responsável definido (dev team)
 
 **DoD**
-- Código versionado no GitHub em branch `feature/fibonacci`  
+- Código em branch `feature/fibonacci`  
 - Commit: `API-1 feat: implementar fibonacci pares até 100`  
 - PR criado para `dev`  
-- Testes manuais documentados  
+- Testes manuais documentados realizados
 - Arquivo `src/fibonacci.alg` anexado  
-- Atualização no `docs/sprints/sprint1.md`  
+- Atualização no `docs/sprint1/requisito1.md`  
 - Demonstração feita na review  
 
 
@@ -39,19 +39,19 @@ Como usuário da calculadora de sequências lógicas, quero a implementação l�
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N.
 
 **DoR**
-- História detalhada  
-- Critérios definidos  
-- Estimativa feita (8 pontos)  
-- Sem bloqueios  
-- Responsável definido  
+- História detalhada e clara
+- Critérios de aceitação definidos
+- Estimativa feita (3 pontos)  
+- Sem bloqueios conhecidos
+- Responsável definido (dev team)
 
 **DoD**
 - Código em branch `feature/quadrados`  
 - Commit: `API-2 feat: quadrados perfeitos múltiplos de 3`  
-- PR para `dev`  
-- Testes manuais realizados  
+- PR criado para `dev`  
+- Testes manuais documentados realizados  
 - Arquivo `src/quadrados.alg` anexado  
-- Atualização no `docs/sprints/sprint2.md`  
+- Atualização no `docs/sprint1/requisito2.md`  
 - Demonstração feita na review  
 
 
@@ -60,18 +60,18 @@ Como usuário da calculadora de sequências lógicas, quero inserir um valor de 
 
 **DoR**
 
-* História clara
-* Critérios definidos
-* Estimativa feita (13 pontos)
-* Sem bloqueios
-* Responsável definido
+- História detalhada e clara
+- Critérios definidos definidos
+- Estimativa feita (5 pontos)
+- Sem bloqueios conhecidos
+- Responsável definido (dev team)
 
 **DoD**
 
-* Branch `feature/alternada`
-* Commit: `API-3 feat: implementar sequência alternada`
-* PR para `dev`
-* Arquivo `src/alternada.alg` anexado
-* Testes documentados
-* Documentação atualizada
-* Review concluída
+- Código em branch `feature/alternada`
+- Commit: `API-3 feat: implementar sequência alternada`
+- PR criado para `dev`
+- Arquivo `src/alternada.alg` anexado
+- Testes documentados
+- Atualização no `docs/sprint1/requisito3.md`
+- Demonstração feita na review 
