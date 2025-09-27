@@ -32,7 +32,7 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 - [Apresentação](docs/apresentacoes/sprint1_review.md)
 
 
-##  Cronograma do Projeto
+##  "Cronograma" do Projeto
 ```mermaid
 gantt
     title Cronograma das Sprints
