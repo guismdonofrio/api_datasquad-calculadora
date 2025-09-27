@@ -24,9 +24,9 @@ Total estimado: **13 pontos**
 ##  Tarefas
 | User Story | Tarefa | Responsável | Tempo Estimado | Status |
 |------------|--------|-------------|----------------|--------|
-| US-001 | Implementar lógica Fibonacci pares | Dev Team | 5h | Concluído |
-| US-001 | Criar testes/documentação | Dev Team | 3h | Concluído |
-| US-002 | Implementar quadrados perfeitos múltiplos de 3 | Dev Team | 6h | Concluído |
-| US-002 | Criar testes/documentação | Dev Team | 2h | Concluído | 
-| US-003 | Implementar sequência alternada com razão | Dev Team | 5h | Concluído | 
-| US-003 | Criar testes/documentação | Dev Team | 4h | Concluído | 
+| US-001 | Implementar lógica Fibonacci pares | Dev Team | 1h30 | Concluído |
+| US-001 | Criar testes/documentação | Dev Team | ±1h | Concluído |
+| US-002 | Implementar quadrados perfeitos múltiplos de 3 | Dev Team | 35min | Concluído |
+| US-002 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
+| US-003 | Implementar sequência alternada com razão | Dev Team | 1h | Concluído | 
+| US-003 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
