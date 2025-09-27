@@ -1,5 +1,6 @@
 Algoritmo "fibonacci_pares_datasquad"
 Var
+
    a,b,c: real
    i:inteiro
 Inicio
