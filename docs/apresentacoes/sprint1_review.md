@@ -1,7 +1,7 @@
 #  Apresentação Sprint 1
 
 ##  Conteúdo da Review
-- User Stories entregues (mostrar funcionando)  
+- User Stories entregues (mostrar funcionamento)  
 - Demonstração do incremento  
 - Explicação técnica breve se o cliente exigir  
 - Lições aprendidas  
