@@ -37,13 +37,3 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 - [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
 
-
-##       
-```mermaid
-gantt
-    title Referente à ultima modificação das Sprints
-    dateFormat  YYYY-MM-DD
-    section Sprint 1
-    US-001 Fibonacci       :2025-09-08, 19d
-    US-002 Quadrados       :2025-09-08, 10d  
-    US-003 Sequência Alternada :2025-09-08, 15d
