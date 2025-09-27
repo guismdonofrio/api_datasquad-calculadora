@@ -17,19 +17,20 @@ Implementar as sequências lógicas para validar a calculadora de acordo com os 
 
 
 ## Tecnologias Utilizadas
-- Linguagem: Portugol
+- Linguagem: Portugol (VisualG 3.0.7)
 - Versionamento: GitHub (GitHub Flow)
-- Gestão: Jira Software
+- Gerencionamento: Jira Software
 - Documentação: Markdown
 
 
 ##  Link para as documentações 
 - [Product Backlog](docs/backlog/product_backlog.md)
 - [Sprint Backlog](docs/backlog/sprint_backlog_sprint1.md)
-- [DoR](docs/backlog/dor_checklist_sprint1.md)
+- [Checklist DoR](docs/backlog/dor_checklist_sprint1.md)
+- [Checklist DoD](docs/backlog/dod_checklist_sprint1.md)
 - [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
-- [Apresentação](docs/apresentacoes/sprint1_review.md)
+- [Esboço: apresentação](docs/apresentacoes/sprint1_review.md)
 
 
 ##  Cronograma do Projeto
