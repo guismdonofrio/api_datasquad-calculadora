@@ -6,6 +6,30 @@ Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal
 Criação de uma Calculadora: Implementar as sequências lógicas para validação de acordo com os requisitos estabelecidos pelo cliente.
 
 
+##  Tecnologia utilizadas 
+- Linguagem: Portugol (VisualG 3.0.7)
+- Repositório: GitHub
+- fluxo: GitHub Flow
+- Gerencionamento: Jira Software
+- Documentação: Markdown
+
+
+## Estrutura do projeto
+
+
+
+##  Link para as documentações 
+- [Product Backlog](docs/backlog/product_backlog.md)
+- [Product Backlog](docs/backlog/product_backlog.md)
+- [Checklist DoR e DoD](docs/checklist/dor_dod.md)
+- [Estratégia de branches e commits](docs/estrategia/branch_e_commits.md)
+- [Manual de instalação](docs/manual/instalacao.md)
+- [Manual do usuario](docs/manual/usuario.md)
+- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
+- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
+- [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
+
+
 ##  Equipe
 | Nome | Papel | Rede social |
 |------|-------|-------------|
@@ -15,26 +39,6 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 | Mariana Roberta Gomes de Sousa | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarinanaSousa) |
 | Matheus Henrique Ambrósio do Nascimento | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
 | Wanderson Ricardo dos Santos | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
-
-
-##  Tecnologias Utilizadas
-- Linguagem: Portugol (VisualG 3.0.7)
-- Repositório: GitHub
-- fluxo: GitHub Flow
-- Gerencionamento: Jira Software
-- Documentação: Markdown
-
-
-##  Link para as documentações 
-- [Product Backlog](docs/backlog/product_backlog.md)
-- [Sprint Backlog](docs/backlog/sprint_backlog_sprint1.md)
-- [Checklist DoR e DoD](docs/checklist/dor_dod.md)
-- [Estratégia de branches e commits](docs/estrategia/branch_e_commits.md)
-- [Manual de instalação](docs/manual/instalacao.md)
-- [Manual do usuario](docs/manual/usuario.md)
-- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
-- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
-- [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
 
 
 ## Cronograma do Projeto
