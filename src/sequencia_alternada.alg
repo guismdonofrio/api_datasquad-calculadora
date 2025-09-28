@@ -17,24 +17,26 @@ escreval ("Digite a razao: ")
 i <- 1
 enquanto i < 10 faca
        Se op = 1 entao
-         n <- ((n) + (r))
+         n <- n + r
          escreval ("posicao: ",i," Resultado: ",n)
          i <- i+1
+       fimse
        Se op = 2 entao
-         n <- ((r) - (n))
+         n <- n - r
          escreval ("posicao: ",i," Resultado: ",n)
          i <- i + 1
        fimse
        Se op = 3 entao
-         n <- ((n) * (r))
+         n <- n * r
          escreval ("posicao: ",i," Resultado: ",n)
          i <- i + 1
        fimse
        Se op = 4 entao
+       Se r = 0 entao
              escreval ("Nao é possivel dividir por zero.")
-             i <- 10 //Caso a razao for igual a 0, formara o fim do laoo.
+             interrompa //Caso a razao for igual a 0, formara o fim do laoo.
           fimse
-         n <- ((n) / (r))
+         n <- n / r
          escreval ("posicao: ",i," Resultado: ",n)
          i <- i + 1
        fimse
