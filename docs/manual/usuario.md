@@ -22,31 +22,31 @@ Escolha a opção da sequência que deseja gerar.
 ...  
 
 
-## Exemplo de saída (Quadrados m3)
-Se escolhido o número 4, os primeiros  4 serão:
- 9
- 36
- 81
- 144
-
+## Exemplo de saída (Quadrados m3)   
+Se escolhido o número 4, os primeiros  4 serão:   
+ 9   
+ 36   
+ 81   
+ 144   
+   
 
 ## Exemplo de saída (Sequência alternada com razão)
-se o valor da razao for: 2
-operação: +
-e o valor do numero inicial (N): 4
-
-resultado:
-
-Posicao  1:  4
-Posicao  2:  6
-Posicao  3:  8
-Posicao  4:  10
-Posicao  5:  12
-Posicao  6:  14
-Posicao  7:  16
-Posicao  8:  18
-Posicao  9:  20
-Posicao  10:  22
+se o valor da razao for: 2   
+operação: +   
+e o valor do numero inicial (N): 4   
+   
+resultado:   
+   
+Posicao  1:  4   
+Posicao  2:  6    
+Posicao  3:  8   
+Posicao  4:  10   
+Posicao  5:  12   
+Posicao  6:  14   
+Posicao  7:  16   
+Posicao  8:  18   
+Posicao  9:  20   
+Posicao  10:  22   
 
 
 
