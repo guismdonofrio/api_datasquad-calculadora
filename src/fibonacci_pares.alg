@@ -4,7 +4,7 @@ Var
    i:inteiro
 Inicio
    // Fibonacci Pares
-   escreval ("1 - Sequencia de Fibonacci (apenas pares)")
+   escreval ("Sequencia de Fibonacci (apenas pares)")
    a <- 0
    b <- 1
    escreval(a)
@@ -13,7 +13,7 @@ Inicio
    enquanto i < 100 faca
       // Verifica se o termo atual e par
       se (i % 3 = 0) entao
-         escreval("F[", i, "] = ", b)
+         escreval(b)
       fimse
       c <- a + b // Calcula o proximo termo
       a <- b // Atualiza o primeiro termo
