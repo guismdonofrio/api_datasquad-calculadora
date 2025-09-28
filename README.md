@@ -14,9 +14,22 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - Documentação: Markdown
 
 
+
 ## Estrutura do projeto
-
-
+├── docs/                
+│   ├── apresentacao/            
+│   ├── backlog/         
+│   ├── checklist/             
+│   ├── estrategia/    
+│   ├── manual/    
+│   ├── softskills/    
+│   ├── sprint/         
+│   └── tarefas/          
+│    
+├── src/                                
+│    
+├── LICENSE               
+└── README.md
 
 ##  Link para as documentações 
 - [Product Backlog](docs/backlog/product_backlog.md)
@@ -52,3 +65,4 @@ gantt
     US-001 Fibonacci          :2025-09-08, 19d
     US-001 Quadrados m3       :2025-09-08, 15d
     US-001 Sequência alternada :2025-09-08, 8d
+          
