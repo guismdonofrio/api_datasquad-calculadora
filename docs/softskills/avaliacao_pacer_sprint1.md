@@ -2,9 +2,9 @@
 
 | Membro | Proatividade | Autonomia | Colaboração | Entrega de Resultados | Média |
 |--------|--------------|-----------|-------------|-----------------------|-------|
-| Guilhermina | 2 | 3 | 3 | 3 | 3 |
+| Guilhermina | 1 | 1 | 1 | 1 | 1 |
 | Rubens      | 1 | 1 | 1 | 1 | 1 |
 | Breno       | 1 | 1 | 1 | 1 | 1 |
 | Mariana     | 1 | 1 | 1 | 1 | 1 |
 | Matheus     | 1 | 1 | 1 | 1 | 1 |
-| Wanderson   | 4 | 3 | 4 | 3 | 4 |  
+| Wanderson   | 1 | 1 | 1 | 1 | 1 |  
