@@ -2,76 +2,13 @@
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 |------|------------|------------|------------|--------|
-| 1 | Alta | US-001 –  Fibonacci pares até 100ª posição | 5 pontos | 1 |
-| 2 | Alta | US-002 – Quadrados perfeitos múltiplos de 3 | 3 pontos | 1 |
-| 3 | Média | US-003 – Sequência alternada com razão | 5 pontos | 1 |
-| 4 | Alta | US-004 – N primeiros números primos | - pontos | 2 |
-| 5 | Média | US-005 – Números triangulares ímpares até a 20ª posição | - pontos | 2 |
-| 6 | Média | US-006 – Sequência de cubos até a 15ª posição | - pontos | 2 |
-| 7 | Média | US-007 – Fatoriais em ordem reversa | - pontos | 3 |
-| 8 | Média | US-008 – Sequência geométrica | - pontos | 3 |
-| 9 | Alta | US-009 – Tribonacci até N termos | - pontos | 3 |
+| 1 | Alta | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição. | 5 pontos | 1 |
+| 2 | Alta | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N. | 3 pontos | 1 |
+| 3 | Média | Como usuário da calculadora de sequências lógicas, quero inserir um valor de razão, um caractere que indica o tipo de operação básica, e um número N para gerar uma sequência alternada com 10 posições, e que começa em N. A cada passo, a operação é aplicada sobre a razao, que por sua vez modifica o valor de N. | 5 pontos | 1 |
+| 4 | Alta | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem dos primeiros N primos, onde eu insiro N. | - pontos | 2 |
+| 5 | Média |Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula de números triangulares em posições impares, começando pela posição 1, até a 20ª posição. | - pontos | 2 |
+| 6 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de cubos, em que eu provejo a quantia de números a serem listados, seguindo a ordem dos números naturais à 15ª posição. | - pontos | 2 |
+| 7 | Média | Como usuário da cálculadora de sequências lógicas, quero a implementação do algorítmo de listagem da sequência de fatoriais para N termos, no qual insiro N. Por fim, a sequência deve ser exibida em ordem reversa, com o último termo sendo exibido primeiro. | - pontos | 3 |
+| 8 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula para cálculo de sequências geométricas, onde eu insiro a razão, número de termos, e primeiro termo. | - pontos | 3 |
+| 9 | Alta | Como usuário da calculadora de sequências lógicas, quero inserir o limite N de termos ao gerar a sequência de Tribonacci, no qual a quantidade de elementos dispostos na interface não pode ser maior que N. | - pontos | 3 |
 
-
-##  Detalhamento das User Stories dessa Sprint 1
-
-### **US-001 – Fibonacci pares até 100ª posição**
-Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição.
-
-**DoR**
-- História detalhada e clara  
-- Critérios de aceitação definidos  
-- Estimativa feita (5 pontos)  
-- Sem bloqueios conhecidos  
-- Responsável definido (dev team)
-
-**DoD**
-- Código em branch `feature/fibonacci`  
-- Commit: `API-1 feat: implementar fibonacci pares até 100`  
-- PR criado para `dev`  
-- Testes manuais documentados realizados
-- Arquivo `src/fibonacci.alg` anexado  
-- Atualização no `docs/sprint1/requisito1.md`  
-- Demonstração feita na review  
-
-
-### **US-002 – Quadrados perfeitos múltiplos de 3**
-Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N.
-
-**DoR**
-- História detalhada e clara
-- Critérios de aceitação definidos
-- Estimativa feita (3 pontos)  
-- Sem bloqueios conhecidos
-- Responsável definido (dev team)
-
-**DoD**
-- Código em branch `feature/quadrados`  
-- Commit: `API-2 feat: quadrados perfeitos múltiplos de 3`  
-- PR criado para `dev`  
-- Testes manuais documentados realizados  
-- Arquivo `src/quadrados.alg` anexado  
-- Atualização no `docs/sprint1/requisito2.md`  
-- Demonstração feita na review  
-
-
-### **US-003 – Sequência alternada com razão**
-Como usuário da calculadora de sequências lógicas, quero inserir um valor de razão, um caractere que indica o tipo de operação básica, e um número N para gerar uma sequência alternada com 10 posições, e que começa em N. A cada passo, a operação é aplicada sobre a razao, que por sua vez modifica o valor de N.
-
-**DoR**
-
-- História detalhada e clara
-- Critérios definidos definidos
-- Estimativa feita (5 pontos)
-- Sem bloqueios conhecidos
-- Responsável definido (dev team)
-
-**DoD**
-
-- Código em branch `feature/alternada`
-- Commit: `API-3 feat: implementar sequência alternada`
-- PR criado para `dev`
-- Arquivo `src/alternada.alg` anexado
-- Testes documentados
-- Atualização no `docs/sprint1/requisito3.md`
-- Demonstração feita na review 
