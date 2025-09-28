@@ -9,12 +9,12 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 ##  Equipe
 | Nome | Papel | Rede social |
 |------|-------|-------------|
-| Guilhermina Moreira D'Onofrio | SM | [GitHub](https://github.com/guismdonofrio) |
-| Rubens Ferreira Venancio | PO | [GitHub](https://github.com/rubensvnc/) |
-| Breno Souza de Andrade | DEV | [GitHub](https://github.com/brenobsa) |
-| Mariana Roberta Gomes de Sousa | DEV | [GitHub](https://github.com/MarinanaSousa) |
-| Matheus Henrique Ambrósio do Nascimento | DEV | [GitHub](https://github.com/Froguie) |
-| Wanderson Ricardo dos Santos | DEV | [GitHub](https://github.com/Wander717) |
+| Guilhermina Moreira D'Onofrio | SM | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio) |
+| Rubens Ferreira Venancio | PO | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/) |
+| Breno Souza de Andrade | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa) |
+| Mariana Roberta Gomes de Sousa | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarinanaSousa) |
+| Matheus Henrique Ambrósio do Nascimento | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
+| Wanderson Ricardo dos Santos | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
 
 
 ##  Tecnologias Utilizadas
