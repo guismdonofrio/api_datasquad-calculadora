@@ -1,7 +1,6 @@
 Algoritmo "MenuSequencias_SE"
-// Este programa oferece um menu para o usuario escolher entre
-// tres diferentes algoritmos de sequencias logicas, usando a logica
-// "SE" e "SENAO".
+
+// usando a logica "SE" e "SENAO".
 Var
    // Variaveis globais do programa
    opcao : inteiro
