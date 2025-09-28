@@ -1,5 +1,5 @@
-Algoritmo "MenuSequencias_SE"
-// usando a logica "SE" e "SENAO".
+Algoritmo "Calculadora de Sequências Lógicas"
+
 Var
    // Variaveis globais do programa
    opcao : inteiro
@@ -28,7 +28,9 @@ Inicio
       Escreval ("-----------------------------")
       leia (opcao)
       limpatela
+
       // --- Logica de Selecao com Blocos SE ---
+
       // Opcao 1: Fibonacci Pares
       se opcao = 1 entao
          escreval ("1 - Sequencia de Fibonacci (apenas pares)")
@@ -48,6 +50,7 @@ Inicio
             i<-i+1
          fimenquanto
       fimse
+
       // Opcao 2: Quadrados Perfeitos Multiplos de 3
       se opcao = 2 entao
          escreval ("2 - Sequencia de Quadrados Perfeitos Multiplos de 3")
@@ -64,6 +67,7 @@ Inicio
             contador <- contador + 1
          fimenquanto
       fimse
+
       // Opcao 3: Sequencia Alternada
       se opcao = 3 entao
          escreval ("3 - Sequencia Alternada")
@@ -106,7 +110,7 @@ Inicio
             fimse
             i<-i+1
          fimenquanto
-      fimse // Fim do bloco SE para opcao 3
+      fimse 
       // Opcao 4: Sair
       se opcao = 4 entao
          escreval ("4 - Sair")
