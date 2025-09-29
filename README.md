@@ -49,8 +49,8 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
  2. Executar o programa para calcular a sequência lógica da Sprint 1: fibonacci pares até 100ª, quadrados perfeitos múltiplos de 3, sequência alternada (operação e razão).
 
 
- ## Manuais
- - [Manual de instalação](docs/manual/instalacao.md)
+## Manuais
+- [Manual de instalação](docs/manual/instalacao.md)
 - [Manual do usuario](docs/manual/usuario.md)
 
    
