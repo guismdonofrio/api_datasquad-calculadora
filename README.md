@@ -61,6 +61,6 @@ gantt
     
     section Sprint 1
     US-001 Fibonacci          :2025-09-08, 19d
-    US-001 Quadrados m3       :2025-09-08, 15d
-    US-001 Sequência alternada :2025-09-08, 8d
+    US-002 Quadrados m3       :2025-09-08, 15d
+    US-003 Sequência alternada :2025-09-08, 8d
           
