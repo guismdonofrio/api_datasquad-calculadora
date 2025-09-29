@@ -8,5 +8,5 @@
 
  Regras:
 - Nenhuma tarefa > 8h  
-- Uma tarefa por vez por membro (feito em conjunto)
+- ~Uma tarefa por vez por membro~ (feito em conjunto a primeira sprint) 
 - Data de entrega prevista deve ser registrada

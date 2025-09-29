@@ -30,3 +30,16 @@ Total estimado: **13 pontos**
 | US-002 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
 | US-003 | Implementar sequência alternada com razão | Dev Team | 1h | Concluído | 
 | US-003 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
+
+
+##  Detalhamento das User Stories - Sprint 1
+
+### **US-001 – Fibonacci pares até 100ª posição**
+Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição.
+
+
+### **US-002 – Quadrados perfeitos múltiplos de 3**
+Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N.
+
+### **US-003 – Sequência alternada com razão**
+Como usuário da calculadora de sequências lógicas, quero inserir um valor de razão, um caractere que indica o tipo de operação básica, e um número N para gerar uma sequência alternada com 10 posições, e que começa em N. A cada passo, a operação é aplicada sobre a razao, que por sua vez modifica o valor de N.

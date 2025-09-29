@@ -9,41 +9,58 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 ##  Equipe
 | Nome | Papel | Rede social |
 |------|-------|-------------|
-| Guilhermina Moreira D'Onofrio | SM | [GitHub](https://github.com/guismdonofrio) |
-| Rubens Ferreira Venancio | PO | [GitHub](https://github.com/rubensvnc/) |
-| Breno Souza de Andrade | DEV | [GitHub](https://github.com/brenobsa) |
-| Mariana Roberta Gomes de Sousa | DEV | [GitHub](https://github.com/MarinanaSousa) |
-| Matheus Henrique Ambrósio do Nascimento | DEV | [GitHub](https://github.com/Froguie) |
-| Wanderson Ricardo dos Santos | DEV | [GitHub](https://github.com/Wander717) |
+| Guilhermina Moreira D'Onofrio | SM | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio) |
+| Rubens Ferreira Venancio | PO | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/) |
+| Breno Souza de Andrade | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa) |
+| Mariana Roberta Gomes de Sousa | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarinanaSousa) |
+| Matheus Henrique Ambrósio do Nascimento | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
+| Wanderson Ricardo dos Santos | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
 
 
-##  Tecnologias Utilizadas
+##  Link para as documentações 
+- [Product Backlog](docs/backlog/product_backlog.md)
+- [Product Sprint](docs/sprint/backlog_sprint1.md)
+- [Checklist DoR e DoD](docs/checklist/dor_dod.md)
+- [Estratégia de branches e commits](docs/estrategia/branch_e_commits.md)
+- [Manual de instalação](docs/manual/instalacao.md)
+- [Manual do usuario](docs/manual/usuario.md)
+- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
+- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
+- [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
+
+##  Tecnologia utilizadas 
 - Linguagem: Portugol (VisualG 3.0.7)
 - Repositório: GitHub
 - fluxo: GitHub Flow
 - Gerencionamento: Jira Software
 - Documentação: Markdown
 
+## Estrutura do projeto
+├── docs/                
+│   ├── apresentacao/            
+│   ├── backlog/         
+│   ├── checklist/             
+│   ├── estrategia/    
+│   ├── manual/    
+│   ├── softskills/    
+│   ├── sprint/         
+│   └── tarefas/          
+│    
+├── src/                                
+│    
+├── LICENSE               
+└── README.md
 
-##  Link para as documentações 
-- [Product Backlog](docs/backlog/product_backlog.md)
-- [Sprint Backlog](docs/backlog/sprint_backlog_sprint1.md)
-- [Checklist DoR](docs/backlog/dor_checklist_sprint1.md)
-- [Checklist DoD](docs/backlog/dod_checklist_sprint1.md)
-- [Estratégia de branches e commits](docs/estrategia/branch_e_commits.md)
-- [Manual de intalação](docs/manual/instalacao.md)
-- [Manual do usuario](docs/manual/usuario.md)
-- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
-- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
-- [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
 
+## Cronograma do Projeto
 
-##       
 ```mermaid
 gantt
-    title Referente à ultima modificação das Sprints
-    dateFormat  YYYY-MM-DD
+    title Cronograma do Projeto - Última modificação
+    dateFormat YYYY-MM-DD
+    
     section Sprint 1
-    US-001 Fibonacci       :2025-09-08, 19d
-    US-002 Quadrados       :2025-09-08, 10d  
-    US-003 Sequência Alternada :2025-09-08, 15d
+    US-001 Fibonacci          :2025-09-08, 19d
+    US-002 Quadrados m3       :2025-09-08, 15d
+    US-003 Sequência alternada :2025-09-08, 8d
+          
