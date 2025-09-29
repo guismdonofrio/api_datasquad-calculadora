@@ -21,7 +21,7 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - [Product Backlog](docs/backlog/product_backlog.md)
 - [Product Sprint](docs/sprint/backlog_sprint1.md)
 - [Checklist DoR e DoD](docs/checklist/dor_dod.md)
-- [Estratégia de branches e commits](ocs/estrategia/branch_e_commits.md)
+- [Estratégia de branches e commits](docs/estrategia/branch_e_commits.md)
 - [Manual de instalação](docs/manual/instalacao.md)
 - [Manual do usuario](docs/manual/usuario.md)
 - [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
