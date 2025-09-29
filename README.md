@@ -51,7 +51,7 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 
 ## Manuais
 - [Manual de instalação](docs/manual/instalacao.md)
-- [Manual do usuario](docs/manual/usuario.md)
+- [Manual do usuário](docs/manual/usuario.md)
 
    
 ##  Tecnologia utilizadas 
