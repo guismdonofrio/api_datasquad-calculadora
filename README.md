@@ -17,24 +17,6 @@ Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal
 Criação de uma Calculadora: Implementar as sequências lógicas para validação de acordo com os requisitos estabelecidos pelo cliente.
 
 
-## Estrutura do projeto
-├── docs/                
-│   ├── apresentacao/            
-│   ├── backlog/         
-│   ├── checklist/             
-│   ├── estrategia/    
-│   ├── manual/    
-│   ├── softskills/    
-│   ├── sprint/         
-│   └── tarefas/          
-│    
-├── src/     
-│   └── calculadora.alg       
-│    
-├── LICENSE               
-└── README.md
-
-
 ##  Link para as documentações 
 - [Product Backlog](docs/backlog/product_backlog.md)
 - [Product Sprint](docs/sprint/backlog_sprint1.md)
@@ -60,6 +42,24 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - fluxo: GitHub Flow
 - Gerencionamento: Jira Software
 - Documentação: Markdown
+
+
+## Estrutura do projeto
+├── docs/                
+│   ├── apresentacao/            
+│   ├── backlog/         
+│   ├── checklist/             
+│   ├── estrategia/    
+│   ├── manual/    
+│   ├── softskills/    
+│   ├── sprint/         
+│   └── tarefas/          
+│    
+├── src/     
+│   └── calculadora.alg       
+│    
+├── LICENSE               
+└── README.md
 
 
 ## Cronograma do Projeto
