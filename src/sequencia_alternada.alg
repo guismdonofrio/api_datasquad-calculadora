@@ -1,44 +1,48 @@
-Algoritmo "seq_alternada"
+Algoritmo "sequencia_alternada_datasquad"
 Var
-// Seccao Declaracoes das variaveis
-op, i: inteiro
-r, n: real
+   razao, N_alternada: real
+   operacao: caractere
+   i:inteiro
 Inicio
-escreval ("Digite a razao: ")
-         leia (r)
-         escreval ("Digite a operacao (+, -, *, /): ")
-         escreval ("Adicao: 1")
-         escreval ("Subtracao: 2")
-         escreval ("Multiplicacao: 3")
-         escreval ("Divisao: 4")
-         leia (op)
-         escreval ("Digite o valor inicial (N): ")
-         leia (n)
-i <- 1
-enquanto i < 10 faca
-       Se op = 1 entao
-         n <- n + r
-         escreval ("posicao: ",i," Resultado: ",n)
-         i <- i+1
-       fimse
-       Se op = 2 entao
-         n <- n - r
-         escreval ("posicao: ",i," Resultado: ",n)
-         i <- i + 1
-       fimse
-       Se op = 3 entao
-         n <- n * r
-         escreval ("posicao: ",i," Resultado: ",n)
-         i <- i + 1
-       fimse
-       Se op = 4 entao
-       Se r = 0 entao
-             escreval ("Nao é possivel dividir por zero.")
-             interrompa //Caso a razao for igual a 0, formara o fim do laoo.
-          fimse
-         n <- n / r
-         escreval ("posicao: ",i," Resultado: ",n)
-         i <- i + 1
-       fimse
-fimenquanto
+   escreval ("Sequencia Alternada")
+   escreva("Digite o valor da razao: ")
+   leia(razao)
+   escreva("Digite a operacao (+, -, *, /): ")
+   leia(operacao)
+   escreva("Digite o numero inicial (N): ")
+   leia(N_alternada)
+   escreval("")
+   escreval("--- Sequencia Gerada ---")
+   // Loop para gerar 10 posicoes da sequencia
+   i <- 1
+   enquanto i <= 10 faca
+      escreval("Posicao ", i, ": ", N_alternada)
+      // Logica interna com SE aninhado para as operacoes
+      se operacao = "+" entao
+         N_alternada <- N_alternada + razao
+      senao
+         se operacao = "-" entao
+            N_alternada <- N_alternada - razao
+         senao
+            se operacao = "*" entao
+               N_alternada <- N_alternada * razao
+            senao
+               se operacao = "/" entao
+                  // Tratamento de erro para divisao por zero
+                  se razao <> 0 entao
+                     N_alternada <- N_alternada / razao
+                  senao
+                     escreval("Erro: Divisao por zero nao e permitida.")
+                     i <- 11
+                  fimse
+               senao
+                  escreval("Erro: Operacao invalida.")
+                  i <-11
+               fimse
+            fimse
+         fimse
+      fimse
+      i<-i+1
+   fimenquanto
+   
 Fimalgoritmo
