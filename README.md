@@ -1,25 +1,30 @@
 # API 2025/2 - DATASQUAD: Calculadora de Sequências Lógicas
 Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal
 
+#
+<p align="center">
+      <img src="docs/img/logo_datasquad.png" alt="logo do Data Squad" width="200">
+      <h2 align="center"> Data Squad </h2>
+</p>
 
 ##  Descrição do Projeto
 Criação de uma Calculadora: Implementar as sequências lógicas para validação de acordo com os requisitos estabelecidos pelo cliente.
 
 
 ##  Equipe
-| Nome | Papel | Rede social |
+| Nome | Papel | Github |
 |------|-------|-------------|
-| Guilhermina Moreira D'Onofrio | SM | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio) |
-| Rubens Ferreira Venancio | PO | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/) |
-| Breno Souza de Andrade | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa) |
-| Mariana Roberta Gomes de Sousa | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarinanaSousa) |
-| Matheus Henrique Ambrósio do Nascimento | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
-| Wanderson Ricardo dos Santos | DEV | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
+| Guilhermina Moreira D'Onofrio | Scrum Master | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guismdonofrio) |
+| Rubens Ferreira Venancio | Product Owner | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rubensvnc/) |
+| Breno Souza de Andrade | Developer | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenobsa) |
+| Mariana Roberta Gomes de Sousa | Developer | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarinanaSousa) |
+| Matheus Henrique Ambrósio do Nascimento | Developer | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Froguie) |
+| Wanderson Ricardo dos Santos | Developer | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wander717) |
 
 
 ##  Link para as documentações 
 - [Product Backlog](docs/backlog/product_backlog.md)
-- [Product Sprint](docs/sprint/backlog_sprint1.md)
+- [Sprint Backlog](docs/sprint/backlog_sprint1.md)
 - [Checklist DoR e DoD](docs/checklist/dor_dod.md)
 - [Estratégia de branches e commits](ocs/estrategia/branch_e_commits.md)
 - [Manual de instalação](docs/manual/instalacao.md)
@@ -28,29 +33,16 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 - [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
 
-##  Tecnologia utilizadas 
-- Linguagem: Portugol (VisualG 3.0.7)
-- Repositório: GitHub
-- fluxo: GitHub Flow
-- Gerencionamento: Jira Software
-- Documentação: Markdown
 
-## Estrutura do projeto
-├── docs/                
-│   ├── apresentacao/            
-│   ├── backlog/         
-│   ├── checklist/             
-│   ├── estrategia/    
-│   ├── manual/    
-│   ├── softskills/    
-│   ├── sprint/         
-│   └── tarefas/          
-│    
-├── src/                                
-│    
-├── LICENSE               
-└── README.md
+## ⚙️ Tecnologia utilizadas 
 
+<h4 align="center">
+    <a href="/"><img src="https://img.shields.io/badge/portugol-red?style=for-the-badge&logoColor=white"></a>
+    <a href="https://github.com/about"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="https://docs.github.com/en/get-started/using-github/github-flow"><img src="https://img.shields.io/badge/Github_flow-8F6BD0?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="/"><img src="https://img.shields.io/badge/jira-1868DB?style=for-the-badge&logo=jira&logoColor=white"></a>
+    <a href="https://www.markdownguide.org"><img src="https://img.shields.io/badge/markdown-343A40?style=for-the-badge&logo=markdown&logoColor=white"></a>
+</h4>
 
 ## Cronograma do Projeto
 
