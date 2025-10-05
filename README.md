@@ -23,15 +23,9 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 
 
 ##  Link para as documentações 
-- [Product Backlog](docs/backlog/product_backlog.md)
 - [Sprint Backlog](docs/sprint/backlog_sprint1.md)
-- [Checklist DoR e DoD](docs/checklist/dor_dod.md)
-- [Estratégia de branches e commits](ocs/estrategia/branch_e_commits.md)
-- [Manual de instalação](docs/manual/instalacao.md)
-- [Manual do usuario](docs/manual/usuario.md)
-- [Alocação de tarefas](docs/tarefas/alocacao_tarefas_sprint1.md)
+- [Manuais para execução](docs/manual)
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
-- [Esboço - apresentação](docs/apresentacoes/sprint1_review.md)
 
 
 ## ⚙️ Tecnologia utilizadas 
@@ -43,16 +37,3 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
     <a href="/"><img src="https://img.shields.io/badge/jira-1868DB?style=for-the-badge&logo=jira&logoColor=white"></a>
     <a href="https://www.markdownguide.org"><img src="https://img.shields.io/badge/markdown-343A40?style=for-the-badge&logo=markdown&logoColor=white"></a>
 </h4>
-
-## Cronograma do Projeto
-
-```mermaid
-gantt
-    title Cronograma do Projeto - Última modificação
-    dateFormat YYYY-MM-DD
-    
-    section Sprint 1
-    US-001 Fibonacci          :2025-09-08, 19d
-    US-001 Quadrados m3       :2025-09-08, 15d
-    US-001 Sequência alternada :2025-09-08, 8d
-          
