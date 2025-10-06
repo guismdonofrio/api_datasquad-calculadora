@@ -1,10 +1,32 @@
-#  Sprint Backlog - Sprint 1
+#  Sprint 1
 
 ##  Meta da Sprint
 Implementar as três primeiras funcionalidades da calculadora (Fibonacci pares até 100, Quadrados perfeitos múltiplos de 3 e Sequência alternada com razão) para validar o funcionamento inicial do sistema.
 
 
-##  User Stories da Sprint 1
+##  Definition of Ready (DoR)
+
+Checklist aplicado para todas as User Stories da Sprint:
+
+- [x] User Stories têm título e descrição claros  
+- [x] Critérios de aceitação definidos  
+- [x] Estimativas realizadas pela equipe  
+- [x] Sem dependências bloqueadoras  
+- [x] Responsáveis atribuídos (team) 
+- [x] Artefatos/documentos necessários disponíveis (ex.: código inicial, pasta docs, etc.)  
+
+
+##  Definition of Done (DoD)
+
+Checklist que garante que a User Story foi concluída com qualidade:
+
+- [x] Código versionado no Git  
+- [x] Branch criada e PR aberto para code review  
+- [x] Testes implementados (mínimo 70% cobertura)  
+- [x] Documentação atualizada (README, backlog, sprint)  
+
+
+##  User Stories da Sprint
 | Rank | US | Estimativa | Status |
 |------|----|------------|--------|
 | 1 | US-001 – Fibonacci pares até 100ª posição | 5 pontos | Concluído |
@@ -32,16 +54,72 @@ Total estimado: **13 pontos**
 | US-003 | Criar testes/documentação | Dev Team | ±1h | Concluído | 
 
 
-##  Detalhamento das User Stories
+#  Detalhamento das User Stories
 
-### **US-001 – Fibonacci pares até 100ª posição**
+## **US-001 – Fibonacci pares até 100ª posição**
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição.
 
-### **US-002 – Quadrados perfeitos múltiplos de 3**
+**DoR**
+
+* User Story detalhada e clara
+* Critérios de aceitação definidos
+* Estimativa feita (5 pontos)
+* Sem bloqueios conhecidos
+* Responsável definido
+
+**DoD**
+
+* Código versionado no GitHub em branch `feature/fibonacci`
+* Commit: `feat: fibonacci`
+* PR criado para `dev`
+* Testes manuais 
+* Arquivo `src/fibonacci_pares.alg` anexado
+* Atualização no `docs/backlog_sprint1.md`
+* Demonstração feita na review
+
+
+## **US-002 – Quadrados perfeitos múltiplos de 3**
 Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N.
 
-### **US-003 – Sequência alternada com razão**
+**DoR**
+
+* História detalhada
+* Critérios definidos
+* Estimativa feita (3 pontos)
+* Sem bloqueios
+* Responsável definido
+
+**DoD**
+
+* Código em branch `feature/quadrados`
+* Commit: `feat: quadrados`
+* PR para `dev`
+* Testes manuais realizados
+* Arquivo `src/quadrados_m3.alg` anexado
+* Atualização no `docs/backlog_sprint1.md`
+* Demonstração feita na review
+
+
+## **US-003 – Sequência alternada com razão**
 Como usuário da calculadora de sequências lógicas, quero inserir um valor de razão, um caractere que indica o tipo de operação básica, e um número N para gerar uma sequência alternada com 10 posições, e que começa em N. A cada passo, a operação é aplicada sobre a razao, que por sua vez modifica o valor de N.
+
+**DoR**
+
+* História clara
+* Critérios definidos
+* Estimativa feita (5 pontos)
+* Sem bloqueios
+* Responsável definido
+
+**DoD**
+
+* Branch `feature/sequencia_alternada`
+* Commit: `feat: sequência_alternada`
+* PR para `dev`
+* Arquivo `src/sequencia_alternada.alg` anexado
+* Testes manuais realizados
+* Documentação atualizada
+* Review concluída
 
 
 #  Alocação de Tarefas
