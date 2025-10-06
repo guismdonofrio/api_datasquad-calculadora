@@ -23,8 +23,10 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 
 
 ##  Link para as documentações 
+- [Manual de Instalação](docs/manual/instalacao.md)
+- [Manual do usuário](docs/manual/usuario.md)
+
 - [Sprint Backlog](docs/sprint/backlog_sprint1.md)
-- [Manuais para execução](docs/manual)
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 
 
