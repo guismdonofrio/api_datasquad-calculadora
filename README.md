@@ -26,12 +26,6 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 | 9 | Baixa | Como usuário da cálculadora de sequências lógicas, quero a implementação do algorítmo de listagem da sequência de fatoriais para N termos, no qual insiro N. Por fim, a sequência deve ser exibida em ordem reversa, com o último termo sendo exibido primeiro | - pontos | 3 |
 
 
-##  Link para as documentações 
-
-- [Sprint Backlog](docs/sprint/backlog_sprint1.md)
-- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
-
-
 ##  Manual de Instalação
 
 ## Pré-requisitos
@@ -50,6 +44,13 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 ## Execução
 - No VisualG, clique em Executar (F9) para rodar o programa.
 - O resultado será exibido no console do VisualG.
+
+
+##  Link para as documentações 
+
+- [Manual do Usuário](docs/manual/usuario.md)
+- [Sprint Backlog](docs/sprint/backlog_sprint1.md)
+- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 
 
 ##  Tecnologia utilizadas 
