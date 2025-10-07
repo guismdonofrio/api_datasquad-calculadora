@@ -18,20 +18,93 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 | 1 | Alta | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula da sequência de Fibonacci para números pares, começando do inteiro 0 à 100ª posição. | 5 pontos | 1 |
 | 2 | Alta | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de N quadrados perfeitos múltiplos de 3, onde eu insiro N. | 3 pontos | 1 |
 | 3 | Alta | Como usuário da calculadora de sequências lógicas, quero inserir um valor de razão, um caractere que indica o tipo de operação básica, e um número N para gerar uma sequência alternada com 10 posições, e que começa em N. A cada passo, a operação é aplicada sobre a razao, que por sua vez modifica o valor de N. | 5 pontos | 1 |
-| 4 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem dos primeiros N primos, onde eu insiro N | - pontos | 2 |
-| 5 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula para cálculo de sequências geométricas, onde eu insiro a razão, número de termos, e primeiro termo. | - pontos | 2 |
-| 6 | Média | Como usuário da calculadora de sequências lógicas, quero inserir o limite N de termos ao gerar a sequência de Tribonacci, no qual a quantidade de elementos dispostos na interface não pode ser maior que N. | - pontos | 2 |
+| 4 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem dos primeiros N primos, onde eu insiro N | 3 pontos | 2 |
+| 5 | Média | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula para cálculo de sequências geométricas, onde eu insiro a razão, número de termos, e primeiro termo. | 5 pontos | 2 |
+| 6 | Média | Como usuário da calculadora de sequências lógicas, quero inserir o limite N de termos ao gerar a sequência de Tribonacci, no qual a quantidade de elementos dispostos na interface não pode ser maior que N. | 8 pontos | 2 |
 | 7 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica da fórmula de números triangulares em posições impares, começando pela posição 1, até a 20ª posição. | - pontos | 3 |
 | 8 | Baixa | Como usuário da calculadora de sequências lógicas, quero a implementação lógica do algoritmo de listagem da sequência de cubos, em que eu provejo a quantia de números a serem listados, seguindo a ordem dos números naturais à 15ª posição. | - pontos | 3 |
 | 9 | Baixa | Como usuário da cálculadora de sequências lógicas, quero a implementação do algorítmo de listagem da sequência de fatoriais para N termos, no qual insiro N. Por fim, a sequência deve ser exibida em ordem reversa, com o último termo sendo exibido primeiro | - pontos | 3 |
 
 
 ##  Link para as documentações 
-- [Manual de Instalação](docs/manual/instalacao.md)
-- [Manual do usuário](docs/manual/usuario.md)
 
 - [Sprint Backlog](docs/sprint/backlog_sprint1.md)
 - [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
+
+
+##  Manual de Instalação
+
+## Pré-requisitos
+- Instalar o **VisualG** (versão mais recente).  
+  - Link de download: [https://visualg3.0.7.com.br/](https://sourceforge.net/projects/visualg30/files/visualg3.0.7.rar/download)
+
+## Instalação
+1. Baixe ou clone este repositório:  
+   ```bash
+   git clone https://github.com/guismdonofrio/api_datasquad-calculadora.git
+
+2. Abra o VisualG.
+
+3. Clique em Arquivo > Abrir e selecione o código-fonte na pasta /src.
+
+## Execução
+- No VisualG, clique em Executar (F9) para rodar o programa.
+- O resultado será exibido no console do VisualG.
+
+
+## Manual do Usuário
+
+## Como usar
+Abra o arquivo no VisualG.  
+Execute o programa com **F9**.  
+Escolha a opção da sequência que deseja gerar.  
+
+## Funcionalidades Sprint 1
+1.  Fibonacci pares até a 100ª posição
+2.  Quadrados perfeitos múltiplos de 3
+3.  Sequência alternada com razão 
+
+## Exemplo de saída (Fibonacci)
+0  
+2  
+8  
+34  
+144  
+610  
+2584  
+10946  
+...  
+
+
+## Exemplo de saída (Quadrados m3)   
+Se escolhido o número 4, os primeiros  4 serão:   
+ 9   
+ 36   
+ 81   
+ 144   
+   
+
+## Exemplo de saída (Sequência alternada com razão)
+se o valor da razao for: 2   
+operação: +   
+e o valor do numero inicial (N): 4   
+   
+resultado:   
+   
+Posicao  1:  4   
+Posicao  2:  6    
+Posicao  3:  8   
+Posicao  4:  10   
+Posicao  5:  12   
+Posicao  6:  14   
+Posicao  7:  16   
+Posicao  8:  18   
+Posicao  9:  20   
+Posicao  10:  22   
+
+
+
+
 
 
 ##  Tecnologia utilizadas 
