@@ -1,4 +1,6 @@
-Algoritmo "Calculadora de Sequências Lógicas"
+Algoritmo "Calculadora de Sequencias Logicas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
 
 Var
    // Variaveis globais do programa
@@ -14,16 +16,19 @@ Var
    N_alternada : real
    razao : real
    operacao : caractere
+   // Variáveis para Números Pares
+   variavel_n, divisores, contadorPrimo, contad, numero: inteiro
 Inicio
    // Estrutura de repeticao principal do menu.
    // Continua rodando enquanto a opcao escolhida nao for 4 (Sair).
-   enquanto opcao <> 4 faca
+   enquanto opcao <> 5 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequencia de Fibonacci (apenas pares)")
       escreval (" 02 - Quadrado Perfeito")
       escreval (" 03 - Sequencia Alternada")
-      escreval (" 04 - Sair")
+      escreval (" 04 - Números Primos")
+      escreval (" 05 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
@@ -110,18 +115,52 @@ Inicio
             fimse
             i<-i+1
          fimenquanto
-      fimse 
-      // Opcao 4: Sair
+      fimse
+
+      // Opção 4: Números Primos
+
       se opcao = 4 entao
-         escreval ("4 - Sair")
+         escreval ("4 - Números Primos")
+         escreval("Digite a quantidade de numeros primos que deseja: ")
+         leia (variavel_n)
+         se (variavel_n)<1 entao
+            escreval ("Digite apenas numeros maiores que 0")
+         senao
+            contad<-0
+            numero<-2
+            escreval()
+            escreval()
+            escreval()
+            escreval("Os", variavel_n," seguintes números são primos: ")
+            escreval("----------------------------------")
+            enquanto contad < variavel_n faça
+               divisores <- 0
+               para contadorPrimo de 1 até numero faça
+                  se (numero % contadorPrimo = 0) entao
+                     divisores <- divisores + 1
+                  fimse
+               fimpara
+               se (divisores = 2) entao
+                  escreval (numero)
+                  contad <- contad + 1
+               fimse
+               numero <- numero + 1
+            fimenquanto
+         fimse
+      fimse
+
+      // Opcao 5: Sair
+      se opcao = 5 entao
+         escreval ("5 - Sair")
          escreval ("Saindo do programa. Ate mais!")
       fimse
       // --- Logica de Pausa e Retorno ao Menu ---
-      // Pausa a execucao se o usuario nao escolheu Sair (opcao 4)
-      se opcao <> 4 entao
+      // Pausa a execucao se o usuario nao escolheu Sair (opcao 5)
+      se opcao <> 5 entao
          escreval("")
          escreval("Pressione qualquer tecla e ENTER para voltar ao menu...")
          leia(pausar)
       fimse
    fimenquanto
 FimAlgoritmo
+
