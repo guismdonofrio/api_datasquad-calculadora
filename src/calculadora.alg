@@ -1,7 +1,7 @@
 Algoritmo "Calculadora de Sequencias Logicas"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
-
+j
 Var
    // Variaveis globais do programa
    opcao : inteiro
