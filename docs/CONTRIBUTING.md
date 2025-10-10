@@ -22,7 +22,7 @@ Use um dos seguintes tipos no início da sua mensagem. Escolha o que melhor desc
 > | `style`    | Alterações que não afetam o significado do código (formatação, espaços, ponto e vírgula).                          | `style(menu): melhora nomes das variáveis para ficarem mais claros` | 
 > | `refactor` | Use quando reescrever partes do código para deixá-las mais simples ou melhores, mas sem alterar o resultado final. | `refactor(inicio): reorganiza os itens do menu principal` | 
 > | `test`     | Quando adicionar ou ajustar testes                                                                                 | `test(inicio): cria passos de teste para o menu principal (abrir, escolher opção 1 e 2)` | 
-> | `chore`    | arefas de manutenção / configuração que não mudam a lógica do programa                                             | `chore(estrutura): cria pastas src/ e docs/ e organiza arquivos do projeto` | 
+> | `chore`    | tarefas de manutenção / configuração que não mudam a lógica do programa                                             | `chore(estrutura): cria pastas src/ e docs/ e organiza arquivos do projeto` | 
 
 ### 1.2. Escopo (Opcional)
 O `<escopo>` é opcional, mas altamente recomendado para clareza. Ele especifica a parte do projeto que o commit afeta. <br>
