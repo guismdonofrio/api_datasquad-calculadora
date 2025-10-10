@@ -48,11 +48,16 @@ Segue a mesma ideologia do padrão de Commit.
 #### Formato Obrigatório:
 >`<tipo>/<descrição parte1>-<descrição parte2>`
 #### Exemplo:
-> `feat/novo-menu`
+> `docs/organizar-pastas`
 
-Sempre usar "-" para separar palavaras em Branching <br>
-Sempre crie uma nova Branch para cada mudança
-**Jamais faça alterações diretas no Branch principal (main)**
+- Sempre usar "-" para separar palavaras em Branching <br>
+- Um branch deve ser criado com uma ideia em geral, por exemplo: organizar multiplas pastas do diretorio, 
+  resultaria em um unico branch de nome "docs/organizar-pastas", e dentro dele seriam feitos commits menores, 
+  contendo a real alteração do diretorio, por exemplo: "docs(sprint): Adicionada pasta sprint2/". <br>
+- Se a alteração for uma alteração pequena, em um unico arquivo, como alterar uma virgula de posição, 
+  ela pode ser feita direto naquele branch, sem criar um novo. Por exemplo: "adicionar um 'a' em README.md, 
+  pode ser feito um commit direto no branch 'development' sem criar um novo branch" <br>
+- **Jamais faça alterações diretas no Branch principal (main)**
 
 
 ## 3. Padrão de Pull Request (PR)
@@ -60,13 +65,16 @@ Ao criar um Pull Request, use o template abaixo para que o revisor saiba o que e
 
 #### Título do PR
 O título do Pull Request deve seguir o mesmo padrão do commit principal: 
-> `tipo(<escopo opcional>): <descrição>.`
+> `Descricao concisa da ideia geral`
+- Exemplo: "Adicionadas novas pastas"
 #### Corpo do PR:
 ##### 1. O que foi feito? (Explique de forma simples o que você adicionou, mudou ou corrigiu no código).
-- Exemplo: "Correção para o código do rank 3 do product backlog"
+- Exemplo: "Foram adicionadas novas pastas para melhor organizar o diretorio"
 
-##### 2. Onde foi feito? (Diga qual parte do programa foi alterada).
-- Exemplo: "Dentro do Menu principal"
+##### 2. alterações (Diga qual parte do programa foi alterada).
+- Exemplo (todos os subtopicos abaixo formam 1 único exemplo):
+  - Adicionada pasta src/ em docs/
+  - Adicionada pasta logs/ em src/
 
 ##### 3. Por que foi feito? (Explique por que essa mudança é necessária ou útil).
 - Exemplo: "O programa anterior resultava em erro"
