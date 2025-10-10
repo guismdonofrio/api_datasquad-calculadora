@@ -10,19 +10,19 @@ Todas as mensagens de commit devem seguir o padrão simplificado de **Convention
 #### Formato Obrigatório:
 > `<tipo>(<escopo opcional>): <descrição concisa>` <br>
 #### Exemplo:
-> `feat(inicio): mostra mensagem de boas-vindas ao usuário`
+> `feat(inicio): inserido mensagem de boas-vindas ao usuário`
 
 ### 1.1. Tipos Comuns (Mapeamento)
 Use um dos seguintes tipos no início da sua mensagem. Escolha o que melhor descreve o objetivo do seu commit: <br>
 > | Tipo   | Descrição | Exemplo |
 > |------------|--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-> | `feat`     | Use quando adicionar algo novo ao programa.                                                                        | `feat(inicio): mostra mensagem de boas-vindas ao usuário` | 
-> | `fix`      | Use quando consertar algo que estava errado.                                                                       | `fix(calculadora): arruma cálculo que mostrava resultado errado` | 
-> | `docs`     | Mudanças ou adições na documentação (README, guias, etc.).                                                         | `docs: adiciona passo a passo para rodar o programa no Visualg` | 
-> | `style`    | Alterações que não afetam o significado do código (formatação, espaços, ponto e vírgula).                          | `style(menu): melhora nomes das variáveis para ficarem mais claros` | 
-> | `refactor` | Use quando reescrever partes do código para deixá-las mais simples ou melhores, mas sem alterar o resultado final. | `refactor(inicio): reorganiza os itens do menu principal` | 
-> | `test`     | Quando adicionar ou ajustar testes                                                                                 | `test(inicio): cria passos de teste para o menu principal (abrir, escolher opção 1 e 2)` | 
-> | `chore`    | tarefas de manutenção / configuração que não mudam a lógica do programa                                             | `chore(estrutura): cria pastas src/ e docs/ e organiza arquivos do projeto` | 
+> | `feat`     | Use quando adicionar algo novo ao programa.                                                                        | `feat(inicio): inserido mensagem de boas-vindas ao usuário` | 
+> | `fix`      | Use quando consertar algo que estava errado.                                                                       | `fix(calculadora): corrigido cálculo que mostrava resultado errado` | 
+> | `docs`     | Mudanças ou adições na documentação (README, guias, etc.).                                                         | `docs: adicionado passo a passo para rodar o programa no Visualg` | 
+> | `style`    | Alterações que não afetam o significado do código (formatação, espaços, ponto e vírgula).                          | `style(menu): melhorado nomes das variáveis para ficarem mais claros` | 
+> | `refactor` | Use quando reescrever partes do código para deixá-las mais simples ou melhores, mas sem alterar o resultado final. | `refactor(inicio): reorganizado os itens do menu principal` | 
+> | `test`     | Quando adicionar ou ajustar versões testes (beta,alfa,...)                                                         | `test(calculadora): trocado a formatação de texto para GUI`| 
+> | `chore`    | tarefas de manutenção / configuração que não mudam a lógica do programa                                            | `chore(estrutura): criado pastas src/ e docs/ e organiza arquivos do projeto` | 
 
 ### 1.2. Escopo (Opcional)
 O `<escopo>` é opcional, mas altamente recomendado para clareza. Ele especifica a parte do projeto que o commit afeta. <br>
@@ -36,7 +36,7 @@ O `<escopo>` é opcional, mas altamente recomendado para clareza. Ele especifica
 - ...
 
 #### Exemplo de uso com escopo: 
-> `docs(readme): Ajusta ordem dos elementos`
+> `docs(readme): Ajustado a ordem dos elementos`
 
 ### 1.3. Descrição Concisa
 A descrição deve ser escrita no **imperativo** (como se você estivesse dando uma ordem ou dizendo o que o commit faz) e **não deve terminar com ponto final.**
