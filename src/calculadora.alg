@@ -9,7 +9,7 @@ Var
    // Variaveis para a Sequencia de Fibonacci
    i,cont: inteiro
    // Variaveis para a Sequencia de Fibonacci 2
-   a, b, c: real
+   anterior2, anterior1, proximo: real
    // Variaveis para Quadrados Perfeitos
    N, contador, multiploDe3, quadrado : inteiro
    // Variaveis para a Sequencia Alternada
@@ -39,19 +39,19 @@ Inicio
       // Opcao 1: Fibonacci Pares
       se opcao = 1 entao
          escreval ("1 - Sequencia de Fibonacci (apenas pares)")
-         a <- 0
-         b <- 1
-         escreval(a)
+         anterior2 <- 0
+         anterior1 <- 1
+         escreval(anterior2)
          i<-1
          // Loop para rodar 100 posicoes da sequencia e encontrar os pares
          enquanto i < 100 faca
             // Verifica se o termo atual e par
             se (i % 3 = 0) entao
-               escreval(b)
+               escreval(anterior1)
             fimse
-            c <- a + b // Calcula o proximo termo
-            a <- b // Atualiza o primeiro termo
-            b <- c // Atualiza o segundo termo
+            proximo <- anterior2 + anterior1 // Calcula o proximo termo
+            anterior2 <- anterior1 // Atualiza o primeiro termo
+            anterior1 <- proximo // Atualiza o segundo termo
             i<-i+1
          fimenquanto
       fimse
@@ -163,4 +163,3 @@ Inicio
       fimse
    fimenquanto
 FimAlgoritmo
-
