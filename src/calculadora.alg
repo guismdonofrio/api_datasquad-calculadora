@@ -4,6 +4,7 @@ Algoritmo "Calculadora de Sequencias Logicas"
 
 Var
    // Variaveis globais do programa
+   //alteração leve no codigo, sem comrromper o arquivo orgiinal
    opcao : inteiro
    pausar : caractere
    // Variaveis para a Sequencia de Fibonacci
