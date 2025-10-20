@@ -1,4 +1,9 @@
-Algoritmo "Calculadora de Sequencias Logicas"
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/10/2025
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 
@@ -18,17 +23,20 @@ Var
    operacao : caractere
    // Variáveis para Números Pares
    variavel_n, divisores, contadorPrimo, contad, numero: inteiro
+   //Variáveis para Tribonacci
+   anterior3: real
 Inicio
    // Estrutura de repeticao principal do menu.
    // Continua rodando enquanto a opcao escolhida nao for 4 (Sair).
-   enquanto opcao <> 5 faca
+   enquanto opcao <> 6 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequencia de Fibonacci (apenas pares)")
       escreval (" 02 - Quadrado Perfeito")
       escreval (" 03 - Sequencia Alternada")
       escreval (" 04 - Números Primos")
-      escreval (" 05 - Sair")
+      escreval (" 05 - Sequencia de Tribonacci")
+      escreval (" 06 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
@@ -149,14 +157,47 @@ Inicio
          fimse
       fimse
 
-      // Opcao 5: Sair
+
       se opcao = 5 entao
+      escreval("Digite quantos termos de Tribonacci você vai querer.")
+    leia(N)
+
+    //valores iniciais 1-3
+    anterior3 <- 0
+    anterior2 <- 1
+    anterior1 <- 1
+
+    //--seção para exibir ao menos um/todos 3 primeiros termos
+    se N >= 1 entao
+        escreval("Termo 1: ",anterior3)
+    fimse
+    se N >= 2 entao
+        escreval("Termo 2: ",anterior2)
+    fimse
+    se N >= 3 entao
+        escreval("Termo 3: ",anterior1)
+    fimse
+    //fim seção
+
+    //--seção para a lógica Tribonacci
+    para i de 4 ate N faca
+        proximo <- anterior3+anterior2+anterior1
+        escreval("Termo",i,": ",proximo)
+        anterior3 <- anterior2
+        anterior2 <- anterior1
+        anterior1 <- proximo
+    fimpara
+    //fim seção
+    fimse
+
+      // Opcao 6: Sair
+      se opcao = 6 entao
          escreval ("5 - Sair")
          escreval ("Saindo do programa. Ate mais!")
       fimse
       // --- Logica de Pausa e Retorno ao Menu ---
       // Pausa a execucao se o usuario nao escolheu Sair (opcao 5)
-      se opcao <> 5 entao
+      se opcao <> 6 entao
          escreval("")
          escreval("Pressione qualquer tecla e ENTER para voltar ao menu...")
          leia(pausar)
