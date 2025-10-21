@@ -1,11 +1,5 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 20/10/2025
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+Algoritmo "Calculadora de Sequencias Logicas"
+
 
 Var
    // Variaveis globais do programa
@@ -21,22 +15,27 @@ Var
    N_alternada : real
    razao : real
    operacao : caractere
-   // Variáveis para Números Pares
-   variavel_n, divisores, contadorPrimo, contad, numero: inteiro
+   // Variaveis para Progração Geométrica
+   termos :inteiro
+   primeiro_termo,progrecao_geometrica :real
    //Variáveis para Tribonacci
    anterior3: real
+   
+   // Variáveis para Números Pares
+   variavel_n, divisores, contadorPrimo, contad, numero: inteiro
 Inicio
    // Estrutura de repeticao principal do menu.
-   // Continua rodando enquanto a opcao escolhida nao for 4 (Sair).
-   enquanto opcao <> 6 faca
+   // Continua rodando enquanto a opcao escolhida nao for 6 (Sair).
+   enquanto opcao <> 7 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequencia de Fibonacci (apenas pares)")
       escreval (" 02 - Quadrado Perfeito")
       escreval (" 03 - Sequencia Alternada")
       escreval (" 04 - Números Primos")
-      escreval (" 05 - Sequencia de Tribonacci")
-      escreval (" 06 - Sair")
+      escreval (" 05 - Progração Geométrica")
+      escreval (" 06 - Tribonacci")
+      escreval (" 07 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
@@ -44,7 +43,7 @@ Inicio
 
       // --- Logica de Selecao com Blocos SE ---
 
-      // Opcao 1: Fibonacci Pares
+       // Opcao 1: Fibonacci Pares
       se opcao = 1 entao
          escreval ("1 - Sequencia de Fibonacci (apenas pares)")
          anterior2 <- 0
@@ -156,48 +155,71 @@ Inicio
             fimenquanto
          fimse
       fimse
-
-
+      // Opção 5: Progração Geométrica
       se opcao = 5 entao
-      escreval("Digite quantos termos de Tribonacci você vai querer.")
-    leia(N)
+         escreval("insira a razão:")
+         leia(razao)
+         escreval("Insira o Numero de Termos:")
+         leia(termos)
+         se termos > 0 entao
+            escreval("Insira o Primeiro Termo:")
+            leia(primeiro_termo)
+            i<- 1
 
-    //valores iniciais 1-3
-    anterior3 <- 0
-    anterior2 <- 1
-    anterior1 <- 1
+            escreval("O",i,"º termo da progressão geométrica é:",primeiro_termo)
+            enquanto i < termos faca
+               i<-i+1
+               progrecao_geometrica <- primeiro_termo*razao
+               escreval("O",i,"º termo da progressão geométrica é:",progrecao_geometrica)
+               primeiro_termo<-progrecao_geometrica
+            fimenquanto
 
-    //--seção para exibir ao menos um/todos 3 primeiros termos
-    se N >= 1 entao
-        escreval("Termo 1: ",anterior3)
-    fimse
-    se N >= 2 entao
-        escreval("Termo 2: ",anterior2)
-    fimse
-    se N >= 3 entao
-        escreval("Termo 3: ",anterior1)
-    fimse
-    //fim seção
+         senao
+            escreval ("ERRO!!! Por favor, digite um número maior que 0!")
+         fimse
+      fimse
+       // Opção 6: Tribonacci
+       se opcao = 6 entao
+         escreval("Digite quantos termos de Tribonacci você vai querer.")
+       leia(N)
 
-    //--seção para a lógica Tribonacci
-    para i de 4 ate N faca
-        proximo <- anterior3+anterior2+anterior1
-        escreval("Termo",i,": ",proximo)
-        anterior3 <- anterior2
-        anterior2 <- anterior1
-        anterior1 <- proximo
-    fimpara
-    //fim seção
-    fimse
+       //valores iniciais 1-3
+       anterior3 <- 0
+       anterior2 <- 1
+       anterior1 <- 1
 
-      // Opcao 6: Sair
-      se opcao = 6 entao
-         escreval ("5 - Sair")
+       //--seção para exibir ao menos um/todos 3 primeiros termos
+       se N >= 1 entao
+           escreval("Termo 1: ",anterior3)
+       fimse
+       se N >= 2 entao
+           escreval("Termo 2: ",anterior2)
+       fimse
+       se N >= 3 entao
+           escreval("Termo 3: ",anterior1)
+       fimse
+       //fim seção
+
+       //--seção para a lógica Tribonacci
+       para i de 4 ate N faca
+           proximo <- anterior3+anterior2+anterior1
+           escreval("Termo",i,": ",proximo)
+           anterior3 <- anterior2
+           anterior2 <- anterior1
+           anterior1 <- proximo
+       fimpara
+       //fim seção
+       fimse
+    
+    
+      // Opcao 7: Sair
+      se opcao = 7 entao
+         escreval ("7 - Sair")
          escreval ("Saindo do programa. Ate mais!")
       fimse
       // --- Logica de Pausa e Retorno ao Menu ---
-      // Pausa a execucao se o usuario nao escolheu Sair (opcao 5)
-      se opcao <> 6 entao
+      // Pausa a execucao se o usuario nao escolheu Sair (opcao 6)
+      se opcao <> 8 entao
          escreval("")
          escreval("Pressione qualquer tecla e ENTER para voltar ao menu...")
          leia(pausar)
