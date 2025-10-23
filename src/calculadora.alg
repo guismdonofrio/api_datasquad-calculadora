@@ -20,7 +20,7 @@ Var
    primeiro_termo,progrecao_geometrica :real
    //Variáveis para Tribonacci
    anterior3: real
-   
+
    // Variáveis para Números Pares
    variavel_n, divisores, contadorPrimo, contad, numero: inteiro
 Inicio
@@ -43,8 +43,9 @@ Inicio
 
       // --- Logica de Selecao com Blocos SE ---
 
-       // Opcao 1: Fibonacci Pares
-      se opcao = 1 entao
+      escolha opcao
+         // Opcao 1: Fibonacci Pares
+      caso 1
          escreval ("1 - Sequencia de Fibonacci (apenas pares)")
          anterior2 <- 0
          anterior1 <- 1
@@ -61,10 +62,10 @@ Inicio
             anterior1 <- proximo // Atualiza o segundo termo
             i<-i+1
          fimenquanto
-      fimse
 
-      // Opcao 2: Quadrados Perfeitos Multiplos de 3
-      se opcao = 2 entao
+
+         // Opcao 2: Quadrados Perfeitos Multiplos de 3
+      caso 2
          escreval ("2 - Sequencia de Quadrados Perfeitos Multiplos de 3")
          escreva("Digite a quantidade de quadrados perfeitos (N) que deseja: ")
          leia(N)
@@ -78,10 +79,10 @@ Inicio
             multiploDe3 <- multiploDe3 + 3 // Vai para o proximo multiplo de 3
             contador <- contador + 1
          fimenquanto
-      fimse
 
-      // Opcao 3: Sequencia Alternada
-      se opcao = 3 entao
+
+         // Opcao 3: Sequencia Alternada
+      caso 3
          escreval ("3 - Sequencia Alternada")
          escreva("Digite o valor da razao: ")
          leia(razao)
@@ -122,11 +123,11 @@ Inicio
             fimse
             i<-i+1
          fimenquanto
-      fimse
 
-      // Opção 4: Números Primos
 
-      se opcao = 4 entao
+         // Opção 4: Números Primos
+
+      caso 4
          escreval ("4 - Números Primos")
          escreval("Digite a quantidade de numeros primos que deseja: ")
          leia (variavel_n)
@@ -154,9 +155,9 @@ Inicio
                numero <- numero + 1
             fimenquanto
          fimse
-      fimse
-      // Opção 5: Progração Geométrica
-      se opcao = 5 entao
+
+         // Opção 5: Progração Geométrica
+      caso 5
          escreval("insira a razão:")
          leia(razao)
          escreval("Insira o Numero de Termos:")
@@ -177,52 +178,52 @@ Inicio
          senao
             escreval ("ERRO!!! Por favor, digite um número maior que 0!")
          fimse
-      fimse
-       // Opção 6: Tribonacci
-       se opcao = 6 entao
+
+         // Opção 6: Tribonacci
+      caso 6
          escreval("Digite quantos termos de Tribonacci você vai querer.")
-       leia(N)
+         leia(N)
 
-       //valores iniciais 1-3
-       anterior3 <- 0
-       anterior2 <- 1
-       anterior1 <- 1
+         //valores iniciais 1-3
+         anterior3 <- 0
+         anterior2 <- 1
+         anterior1 <- 1
 
-       //--seção para exibir ao menos um/todos 3 primeiros termos
-       se N >= 1 entao
-           escreval("Termo 1: ",anterior3)
-       fimse
-       se N >= 2 entao
-           escreval("Termo 2: ",anterior2)
-       fimse
-       se N >= 3 entao
-           escreval("Termo 3: ",anterior1)
-       fimse
-       //fim seção
+         //--seção para exibir ao menos um/todos 3 primeiros termos
+         se N >= 1 entao
+            escreval("Termo 1: ",anterior3)
+         fimse
+         se N >= 2 entao
+            escreval("Termo 2: ",anterior2)
+         fimse
+         se N >= 3 entao
+            escreval("Termo 3: ",anterior1)
+         fimse
+         //fim seção
 
-       //--seção para a lógica Tribonacci
-       para i de 4 ate N faca
-           proximo <- anterior3+anterior2+anterior1
-           escreval("Termo",i,": ",proximo)
-           anterior3 <- anterior2
-           anterior2 <- anterior1
-           anterior1 <- proximo
-       fimpara
-       //fim seção
-       fimse
-    
-    
-      // Opcao 7: Sair
-      se opcao = 7 entao
+         //--seção para a lógica Tribonacci
+         para i de 4 ate N faca
+            proximo <- anterior3+anterior2+anterior1
+            escreval("Termo",i,": ",proximo)
+            anterior3 <- anterior2
+            anterior2 <- anterior1
+            anterior1 <- proximo
+         fimpara
+         //fim seção
+
+         // Opcao 7: Sair
+      caso 7
          escreval ("7 - Sair")
          escreval ("Saindo do programa. Ate mais!")
-      fimse
-      // --- Logica de Pausa e Retorno ao Menu ---
-      // Pausa a execucao se o usuario nao escolheu Sair (opcao 6)
-      se opcao <> 8 entao
+
+         // --- Logica de Pausa e Retorno ao Menu ---'
+         // Pausa a execucao se o usuario nao escolheu Sair (opcao 6)
+
+      outrocaso
          escreval("")
          escreval("Pressione qualquer tecla e ENTER para voltar ao menu...")
          leia(pausar)
-      fimse
+      fimescolha
+
    fimenquanto
 FimAlgoritmo
