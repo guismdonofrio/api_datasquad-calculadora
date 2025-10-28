@@ -50,7 +50,6 @@ Criação de uma Calculadora: Implementar as sequências lógicas para validaç�
 
 - [Manual do Usuário](docs/manual/usuario.md)
 - [Sprint Backlog](docs/sprint/backlog_sprint1.md)
-- [PACER](docs/softskills/avaliacao_pacer_sprint1.md)
 
 
 ##  Tecnologia utilizadas 
