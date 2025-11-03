@@ -3,26 +3,29 @@ Algoritmo "Calculadora de Sequencias Logicas"
 
 Var
    // Variaveis globais do programa
-   opcao : inteiro
+   opcao, i : inteiro
    pausar : caractere
+
    // Variaveis para a Sequencia de Fibonacci
-   i,cont: inteiro
-   // Variaveis para a Sequencia de Fibonacci 2
    anterior2, anterior1, proximo: real
+
    // Variaveis para Quadrados Perfeitos
    N, contador, multiploDe3, quadrado : inteiro
+
    // Variaveis para a Sequencia Alternada
-   N_alternada : real
-   razao : real
+   N_alternada, razao : real
    operacao : caractere
-   // Variaveis para Progração Geométrica
+
+   // Variaveis para Progressao Geometrica
    termos :inteiro
    primeiro_termo,progrecao_geometrica :real
-   //Variáveis para Tribonacci
+
+   //Variaveis para Sequencia de Tribonacci
    anterior3: real
 
-   // Variáveis para Números Pares
-   variavel_n, divisores, contadorPrimo, contad, numero: inteiro
+   // Variaveis para Numeros Primos
+   qtd_primos, n_atual, i_primos, divisores: inteiro
+   n_raiz: real
 Inicio
    // Estrutura de repeticao principal do menu.
    // Continua rodando enquanto a opcao escolhida nao for 6 (Sair).
@@ -32,9 +35,9 @@ Inicio
       escreval (" 01 - Sequencia de Fibonacci (apenas pares)")
       escreval (" 02 - Quadrado Perfeito")
       escreval (" 03 - Sequencia Alternada")
-      escreval (" 04 - Números Primos")
-      escreval (" 05 - Progração Geométrica")
-      escreval (" 06 - Tribonacci")
+      escreval (" 04 - Numeros Primos")
+      escreval (" 05 - Progressao Geometrica")
+      escreval (" 06 - Sequencia de Tribonacci")
       escreval (" 07 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
@@ -50,9 +53,8 @@ Inicio
          anterior2 <- 0
          anterior1 <- 1
          escreval(anterior2)
-         i<-1
          // Loop para rodar 100 posicoes da sequencia e encontrar os pares
-         enquanto i < 100 faca
+         para i de 1 ate 100 faca
             // Verifica se o termo atual e par
             se (i % 3 = 0) entao
                escreval(anterior1)
@@ -60,8 +62,7 @@ Inicio
             proximo <- anterior2 + anterior1 // Calcula o proximo termo
             anterior2 <- anterior1 // Atualiza o primeiro termo
             anterior1 <- proximo // Atualiza o segundo termo
-            i<-i+1
-         fimenquanto
+         fimpara
 
 
          // Opcao 2: Quadrados Perfeitos Multiplos de 3
@@ -70,15 +71,13 @@ Inicio
          escreva("Digite a quantidade de quadrados perfeitos (N) que deseja: ")
          leia(N)
          escreval("Os primeiros ", N, " quadrados perfeitos multiplos de 3 sao:")
-         contador <- 0
          multiploDe3 <- 3 // Comeca com o primeiro multiplo de 3
          // Loop para gerar N termos
-         enquanto (contador < N) faca
+         para i de 0 ate (n-1) faca
             quadrado <- multiploDe3 * multiploDe3 // Calcula o quadrado
             escreval(quadrado)
             multiploDe3 <- multiploDe3 + 3 // Vai para o proximo multiplo de 3
-            contador <- contador + 1
-         fimenquanto
+         fimpara
 
 
          // Opcao 3: Sequencia Alternada
@@ -88,77 +87,93 @@ Inicio
          leia(razao)
          escreva("Digite a operacao (+, -, *, /): ")
          leia(operacao)
-         escreva("Digite o numero inicial (N): ")
-         leia(N_alternada)
-         escreval("")
-         escreval("--- Sequencia Gerada ---")
-         // Loop para gerar 10 posicoes da sequencia
-         i <- 1
-         enquanto i <= 10 faca
-            escreval("Posicao ", i, ": ", N_alternada)
-            // Logica interna com SE aninhado para as operacoes
-            se operacao = "+" entao
-               N_alternada <- N_alternada + razao
-            senao
-               se operacao = "-" entao
-                  N_alternada <- N_alternada - razao
+         se (razao = 0) e (operacao = "/") entao
+            i <- 11
+         senao
+            i <- 1
+         fimse
+
+         se i = 1 entao
+            escreva("Digite o numero inicial (N): ")
+            leia(N_alternada)
+            escreval("")
+            escreval("--- Sequencia Gerada ---")
+            // Loop para gerar 10 posicoes da sequencia
+            enquanto i <= 10 faca
+               escreval(i , "o termo da sequencia: ", N_alternada)
+               // Logica interna com SE aninhado para as operacoes
+               se operacao = "+" entao
+                  N_alternada <- N_alternada + razao
                senao
-                  se operacao = "*" entao
-                     N_alternada <- N_alternada * razao
+                  se operacao = "-" entao
+                     N_alternada <- N_alternada - razao
                   senao
-                     se operacao = "/" entao
-                        // Tratamento de erro para divisao por zero
-                        se razao <> 0 entao
-                           N_alternada <- N_alternada / razao
-                        senao
-                           escreval("Erro: Divisao por zero nao e permitida.")
-                           i <- 11
-                        fimse
+                     se operacao = "*" entao
+                        N_alternada <- N_alternada * razao
                      senao
-                        escreval("Erro: Operacao invalida.")
-                        i <-11
+                        se operacao = "/" entao
+                           N_alternada <- N_alternada / razao
+                        fimse
                      fimse
                   fimse
                fimse
-            fimse
-            i<-i+1
-         fimenquanto
+               i <- i+1
+            fimenquanto
+         senao
+            escreval("Operacao inv�lida")
+         fimse
 
 
-         // Opção 4: Números Primos
+         // Opcao 4: Numeros Primos
 
       caso 4
-         escreval ("4 - Números Primos")
+         escreval ("4 - Numeros Primos")
          escreval("Digite a quantidade de numeros primos que deseja: ")
-         leia (variavel_n)
-         se (variavel_n)<1 entao
+         leia (qtd_primos)
+         se (qtd_primos) < 1 entao
             escreval ("Digite apenas numeros maiores que 0")
          senao
-            contad<-0
-            numero<-2
+            // numero (incrementador) para verificar ser primo
+            n_atual<-2
+            // iterador para verificar divisibilidade
+            i <- 1
+            i_primos <- 0
             escreval()
             escreval()
             escreval()
-            escreval("Os", variavel_n," seguintes números são primos: ")
+            escreval("Os", qtd_primos," seguintes numeros sao primos: ")
             escreval("----------------------------------")
-            enquanto contad < variavel_n faça
+            //verifica se a quantidade de primos desejada foi atinjida
+            enquanto i_primos < qtd_primos faca
                divisores <- 0
-               para contadorPrimo de 1 até numero faça
-                  se (numero % contadorPrimo = 0) entao
-                     divisores <- divisores + 1
+
+               //regra matematica divisibilidade primos
+               n_raiz<-n_atual^0.5
+
+               // a iteracao para ao ultrapassar a raiz.
+               enquanto i <= n_raiz faca
+                  se n_atual % i = 0 entao
+                     divisores<-divisores+1
                   fimse
-               fimpara
-               se (divisores = 2) entao
-                  escreval (numero)
-                  contad <- contad + 1
+                  i<-i+1
+               fimenquanto
+
+               // um numero ser� primo se s� 1 divisor entre 1 e sua raiz
+               se (divisores = 1) entao
+                  escreval(n_atual)
+                  i_primos <- i_primos+1
                fimse
-               numero <- numero + 1
+
+               n_atual <- n_atual + 1
+               i<-1
+
+
             fimenquanto
          fimse
 
-         // Opção 5: Progração Geométrica
+         // Opcao 5: Progressao Geometrica
       caso 5
-         escreval("insira a razão:")
+         escreval("insira a razao:")
          leia(razao)
          escreval("Insira o Numero de Termos:")
          leia(termos)
@@ -167,21 +182,20 @@ Inicio
             leia(primeiro_termo)
             i<- 1
 
-            escreval("O",i,"º termo da progressão geométrica é:",primeiro_termo)
-            enquanto i < termos faca
-               i<-i+1
+            escreval("O",i,"� termo da progressao geometrica e:",primeiro_termo)
+            para i de 1 ate (termos-1) faca
                progrecao_geometrica <- primeiro_termo*razao
-               escreval("O",i,"º termo da progressão geométrica é:",progrecao_geometrica)
+               escreval("O",i,"� termo da progressao geometrica e:",progrecao_geometrica)
                primeiro_termo<-progrecao_geometrica
-            fimenquanto
+            fimpara
 
          senao
-            escreval ("ERRO!!! Por favor, digite um número maior que 0!")
+            escreval ("ERRO!!! Por favor, digite um numero maior que 0!")
          fimse
 
-         // Opção 6: Tribonacci
+         // Opcao 6: Tribonacci
       caso 6
-         escreval("Digite quantos termos de Tribonacci você vai querer.")
+         escreval("Digite quantos termos de Tribonacci voce vai querer:")
          leia(N)
 
          //valores iniciais 1-3
@@ -189,7 +203,7 @@ Inicio
          anterior2 <- 1
          anterior1 <- 1
 
-         //--seção para exibir ao menos um/todos 3 primeiros termos
+         //--sessao para exibir ao menos um/todos 3 primeiros termos
          se N >= 1 entao
             escreval("Termo 1: ",anterior3)
          fimse
@@ -199,9 +213,9 @@ Inicio
          se N >= 3 entao
             escreval("Termo 3: ",anterior1)
          fimse
-         //fim seção
+         //fim sessao
 
-         //--seção para a lógica Tribonacci
+         //--sessao para a logica Tribonacci
          para i de 4 ate N faca
             proximo <- anterior3+anterior2+anterior1
             escreval("Termo",i,": ",proximo)
@@ -209,7 +223,7 @@ Inicio
             anterior2 <- anterior1
             anterior1 <- proximo
          fimpara
-         //fim seção
+         //fim sessao
 
          // Opcao 7: Sair
       caso 7
