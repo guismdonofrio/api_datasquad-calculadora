@@ -1,31 +1,41 @@
 Algoritmo "Calculadora de Sequencias Logicas"
 
+// EXPLICACAO DAS VARIÁVEIS
+
+
+// Variaveis globais do programa
+//--opcao, i : inteiro
+//--pausar : caractere
+
+// Variaveis para a Sequencia de Fibonacci
+//--anterior2, anterior1, proximo: real
+
+// Variaveis para Quadrados Perfeitos
+//--N, contador, multiploDe3, quadrado : inteiro
+
+// Variaveis para a Sequencia Alternada
+//--N_alternada, razao : real
+//--operacao : caractere
+
+// Variaveis para Progressao Geometrica
+//--termos :inteiro
+//--primeiro_termo,progrecao_geometrica :real
+
+//--Variaveis para Sequencia de Tribonacci
+//--anterior3: real
+
+// Variaveis para Numeros Primos
+//--qtd_primos, n_atual, i_primos, divisores: inteiro
+//--n_raiz: real
 
 Var
-   // Variaveis globais do programa
-   opcao, i : inteiro
-   pausar : caractere
 
-   // Variaveis para a Sequencia de Fibonacci
-   anterior2, anterior1, proximo: real
 
-   // Variaveis para Quadrados Perfeitos
-   N, contador, multiploDe3, quadrado : inteiro
+   opcao, i, N, contador, multiploDe3, quadrado, termos, qtd_primos, n_atual, i_primos, divisores: inteiro
 
-   // Variaveis para a Sequencia Alternada
-   N_alternada, razao : real
-   operacao : caractere
+   pausar, operacao : caractere
+   anterior3, anterior2, anterior1, proximo, N_alternada, razao, primeiro_termo, progrecao_geometrica, n_raiz: real
 
-   // Variaveis para Progressao Geometrica
-   termos :inteiro
-   primeiro_termo,progrecao_geometrica :real
-
-   //Variaveis para Sequencia de Tribonacci
-   anterior3: real
-
-   // Variaveis para Numeros Primos
-   qtd_primos, n_atual, i_primos, divisores: inteiro
-   n_raiz: real
 Inicio
    // Estrutura de repeticao principal do menu.
    // Continua rodando enquanto a opcao escolhida nao for 6 (Sair).
