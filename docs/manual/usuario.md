@@ -8,7 +8,9 @@ Escolha a opção da sequência que deseja gerar.
 ## Funcionalidades Sprint 1
 1.  Fibonacci pares até a 100ª posição
 2.  Quadrados perfeitos múltiplos de 3
-3.  Sequência alternada com razão 
+3.  Sequência alternada com razão
+
+## Funcionalidades Sprint 2
 4.  Números primos
 5.  Progressão Geométrica
 6.  Tribonacci
