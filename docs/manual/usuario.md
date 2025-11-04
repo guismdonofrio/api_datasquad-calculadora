@@ -57,10 +57,10 @@ Resultado:
 Se escolhido o número 4, os primeiros  4 serão:   
 
 Resultado:
-2
-3
-5
-7
+2  
+3  
+5  
+7  
 
 
 ## Exemplo de saída (Progressão geométrica)   
@@ -69,26 +69,26 @@ O números de termos: 8
 E o primeiro termo: 2
 
 Resultado:
-2
-8
-32
-128
-512
-2048
-8192
-32768  
+2  
+8  
+32  
+128  
+512  
+2048  
+8192  
+32768    
 
 
 ## Exemplo de saída (Tribonacci)   
 Se escolhido o número 8, os primeiros  8 serão:   
 
 Resultado:
-0
-1
-1
-2
-4
-7
-13
-24
+0  
+1  
+1  
+2  
+4  
+7  
+13  
+24  
 
