@@ -125,7 +125,7 @@ Como usuário da calculadora de sequências lógicas, quero inserir o limite N d
 |------------|--------|-------------|----------------|--------|
 | US-01 | N primeiros números primos | Dev Matheus - Rubens  | 2h | Concluida |
 | US-01 | Sequência geométrica | Dev Breno - Guilhermina  | 1h30 | Concluida |
-| US-03 | Tribonacci até N termos | Dev Wanderson - Mariana | h | Concluida |
+| US-03 | Tribonacci até N termos | Dev Wanderson - Mariana | 2h30 | Concluida |
 
  Regras:
 - Nenhuma tarefa > 8h  
