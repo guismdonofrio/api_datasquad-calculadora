@@ -9,6 +9,9 @@ Escolha a opção da sequência que deseja gerar.
 1.  Fibonacci pares até a 100ª posição
 2.  Quadrados perfeitos múltiplos de 3
 3.  Sequência alternada com razão 
+4.  Números primos
+5.  Progressão Geométrica
+6.  Tribonacci
 
 ## Exemplo de saída (Fibonacci)
 0  
@@ -24,29 +27,66 @@ Escolha a opção da sequência que deseja gerar.
 
 ## Exemplo de saída (Quadrados m3)   
 Se escolhido o número 4, os primeiros  4 serão:   
- 9   
- 36   
- 81   
- 144   
+9   
+36   
+81   
+144   
    
 
 ## Exemplo de saída (Sequência alternada com razão)
-se o valor da razao for: 2   
-operação: +   
-e o valor do numero inicial (N): 4   
+Se o valor da razao for: 2   
+Operação: +   
+E o valor do numero inicial (N): 4   
    
-resultado:   
-   
-Posicao  1:  4   
-Posicao  2:  6    
-Posicao  3:  8   
-Posicao  4:  10   
-Posicao  5:  12   
-Posicao  6:  14   
-Posicao  7:  16   
-Posicao  8:  18   
-Posicao  9:  20   
-Posicao  10:  22   
+Resultado:    
+4   
+6    
+8   
+10   
+12   
+14   
+16   
+18   
+20   
+22   
 
 
+## Exemplo de saída (Números primos)   
+Se escolhido o número 4, os primeiros  4 serão:   
+
+Resultado:
+2
+3
+5
+7
+
+
+## Exemplo de saída (Progressão geométrica)   
+Se escolhido a razão: 4
+O números de termos: 8
+E o primeiro termo: 2
+
+Resultado:
+2
+8
+32
+128
+512
+2048
+8192
+32768  
+
+
+## Exemplo de saída (Tribonacci)   
+Se escolhido o número 8, os primeiros  8 serão:   
+
+Resultado:
+0
+1
+1
+2
+4
+7
+13
+24
 
