@@ -5,7 +5,7 @@ Este manual tem como objetivo orientar o uso da **Calculadora de Sequências Ló
 
 A aplicação permite ao usuário gerar diferentes tipos de **sequências numéricas**, como Fibonacci, números primos, progressões e outras, de forma simples e interativa.
 
-*Público-alvo:* estudantes, professores e avaliadores interessados em explorar ou testar as funcionalidades do sistema.
+**Público-alvo:** estudantes, professores e avaliadores interessados em explorar ou testar as funcionalidades do sistema.
 
 
 ## Objetivo do Programa
